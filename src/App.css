@@ -1,0 +1,673 @@
+@font-face {
+  font-family: earthtracks;
+  src: url(../public/Asserts/fonts/dash-horizon-font/Dashhorizon-eZ5wg.otf);
+}
+
+@font-face {
+  font-family: Nipok;
+  src: url(../public/Asserts/fonts/dash-horizon-font/Dashhorizon-eZ5wg.otf);
+}
+
+@font-face {
+  font-family: WendyOne;
+  src: url(../public/Asserts/fonts/dash-horizon-font/Dashhorizon-eZ5wg.otf);
+}
+
+
+html,
+body {
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: black;
+}
+
+
+
+/* ------------------- Navbar ------------------- */
+
+
+.navbar {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  }
+
+.navbar p {
+  color: rgb(238, 229, 229) !important;
+}
+
+.navbar .navbar-brand {
+  color: rgb(238, 229, 229) !important;
+  font-family: Nipok;
+  font-size: 50px;
+  padding-left: 5 0px;
+  pointer-events: none;
+}
+
+.navbar .nav-link {
+  font-family: earthtracks;
+  color: rgb(238, 229, 229) !important;
+  font-size: 40px;
+}
+
+.navbar .nav-link:hover {
+  transition: .1s ease;
+  transform: scale(1.1);
+}
+
+.navbar .nav-item {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navbar-toggler {
+  margin-top: 5px;
+  border: none;
+}
+
+@media (max-width: 800px) {
+.navbar-nav {
+  margin-bottom: 40px;
+}
+.navbar .nav-link {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar .nav-link {
+    font-size: 30px;
+  }
+}
+
+
+/* ------------------- HeroSection ------------------- */
+
+
+
+
+#hero-section {
+  margin-top: 70px;
+}
+
+
+
+.hero-section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
+  width: 600px;
+}
+
+.hero-section a {
+  font-family: earthtracks;
+  font-size: 32px;  
+  color: white;
+  padding: 20px;
+}
+
+#socials {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+
+@media (max-width: 1090px) {
+  .hero-section h1 {
+    font-size: 45px;
+    top: 10%;
+  }
+
+  .hero-section h3 {
+    top: 12%;
+    font-size: 30px;
+    left: 36%;
+    transform: translateX(-20%);
+  }
+}
+
+@media (max-width: 900px) {
+  .hero-section h1 {
+    font-size: 45px;
+    top: 10%;
+  }
+
+  .hero-section h3 {
+    top: 19%;
+    font-size: 20px;
+  }
+
+.hero-section a {
+  font-size: 27px;
+}
+}
+
+@media (max-width: 800px) {
+
+  .hero-section img {
+    width: 450px;
+    height: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -75px
+  }
+
+
+  .hero-section h1 {
+    font-size: 70px;
+    margin-top: -45px;
+  }
+
+  .hero-section h3 {
+    top: 9%;
+    font-size: 29px;
+    left: 30%;
+    transform: translateX(-20%);
+  }
+}
+
+
+@media (max-width: 550px) {
+  .hero-section img {
+    width: 450px;
+    height: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero-section a {
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 455px) {
+  .hero-section img {
+    width: 370px;
+    height: 370px;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero-section img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 305px) {
+  .hero-section img {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-section h1 {
+    font-size: 40px;
+    margin-top: -24px;
+  }
+
+  .hero-section h3 {
+    top: 9%;
+    font-size: 19px;
+    left: 30%;
+    transform: translateX(-20%);
+  }      
+
+  .hero-section a {
+    font-size: 19px;
+    padding: 9px;
+  }                  
+}
+
+@media (max-width: 250px) {
+  .hero-section img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  } 
+}
+
+
+
+@media (max-width: 220px) {
+  .hero-section a {
+    font-size: 16px;
+    padding: 6px;
+  }   
+}
+
+
+
+/* ------------------- About ------------------- */
+
+#Banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 500px;
+}
+
+
+#about {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.about h1 {
+  font-family: Nipok;
+  margin-top: 65x;
+  text-align: center;
+  color: rgb(238, 229, 229) !important;
+  font-size: 45px;
+}
+
+.about p {
+  font-family: earthtracks;
+  font-weight: 200;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  font-size: 20px;
+  z-index: 10;
+  padding-top: 28px;
+  line-height: 35px;
+  color: rgb(238, 229, 229) !important;
+  text-align: center;
+}
+
+
+
+@media (max-width: 800px) {
+
+  #about {
+    margin-top: 10px;
+  }
+
+  .about h1 {
+    padding-left: 0px;
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+
+  }
+
+  .about p {
+    padding: 20px;
+    line-height: 31px;
+    letter-spacing: 2px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about h1 {
+    padding-left: 0px;
+  }
+
+  .about p {
+    padding: 20px;
+    line-height: 31px;
+    letter-spacing: 2px;
+    font-size: 13px;
+  }
+
+  #Gif {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+ #Banner {
+  margin-left:-9%;
+}
+}
+
+@media (max-width: 450px) {
+  #Banner {
+   margin-left:-19%;
+ }
+ }
+
+ @media (max-width: 400px) {
+  #Banner {
+    height: 200px;
+    width: 390px;
+    margin-left:-9%;
+ }
+ }
+
+ @media (max-width: 350px) {
+  #Banner {
+   margin-left:-21%;
+ }
+ }
+
+ 
+ @media (max-width: 300px) {
+  #Banner {
+    height: 150px;
+    width: 300px;
+    margin-left:-12%;
+ }
+ }
+
+ @media (max-width: 250px) {
+  #Banner {
+   margin-left:-30%;
+ }
+ }
+
+
+/* ------------------- Tokenomics ------------------- */
+
+
+.buy-sell {
+  padding: 50px 60px;
+}
+
+.buy-sell .toke {
+  color: #f1ebe7;
+  margin-top: -40px;
+  font-size: 45px;
+}
+
+.buy-sell h1 {
+  color: #eee5e5;
+  font-family: Nipok;
+  font-size: 33px;
+  margin-bottom: 20px;
+  padding-top: 50px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.buy-sell .col-4 {
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.buy-sell .tokenomics {
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  height: 90px;
+  border-top: 2px solid #d94038;
+  border-radius: 30px;
+}
+
+.buy-sell .tokenomics h4 {
+  font-family: Nipok;
+  margin-top: 4px;
+  font-size: 26px;
+  margin-bottom: 0px;
+  color: rgb(252, 252, 252);
+}
+
+.buy-sell .tokenomics h5 {
+  font-family: earthtracks;
+  color: rgb(238, 229, 229);
+}
+
+
+
+@media (max-width: 1050px) {
+  .buy-sell .tokenomics h1 {
+    font-size: 28px;
+  }
+  .buy-sell .tokenomics h5 {
+    font-size: 22px;
+  }
+  .buy-sell .tokenomics h5 {
+    font-size: 18px;
+  }
+}
+
+
+@media (max-width: 950px) {
+  .buy-sell .tokenomics-sell {
+    text-align: center;
+  }
+  .buy-sell .tokenomics-buy {
+    text-align: center;
+  }
+}
+
+@media (max-width: 900px) {
+
+  .buy-sell .tokenomics-sell {
+    text-align: center;
+  }
+
+  .buy-sell .tokenomics-buy {
+    text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .buy-sell {
+    padding: 20px 20px;
+  }
+  .buy-sell h1.toke {
+    font-size: 35px;
+  }
+  .buy-sell h1 {
+    font-size: 28px;
+  }
+  .buy-sell .tokenomics {
+    padding: 10px 10px;
+  }
+  .buy-sell .tokenomics h6 {
+    font-size: 23px;
+    padding-top: 22px;
+  }
+  .buy-sell .tokenomics h4 {
+    font-size: 26px;
+    padding-top: 4px;
+  }
+  .buy-sell .tokenomics h5 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  .buy-sell {
+    margin-top: -50px; 
+} 
+  .buy-sell .toke {
+    font-size: 31px;
+    margin-bottom: 50px;
+  }
+  .buy-sell h1 {
+    margin-top: -50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .buy-sell .toke {
+    font-size: 26px;
+  }
+  .buy-sell h1 {
+    font-size: 24px;
+  }
+  .buy-sell .tokenomics h4 {
+    font-size: 16px;
+  }
+  .buy-sell .tokenomics h5 {
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .buy-sell .tokenomics h4 {
+    font-size: 16px;
+  }
+  .buy-sell .tokenomics h5 {
+    font-size: 15px;
+  }
+  .buy-sell h1 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 290px) {
+  .buy-sell .tokenomics h6 {
+    font-size: 17px;
+  }
+  .buy-sell .tokenomics h5 {
+    font-size: 12px;
+  }
+  .buy-sell .tokenomics h4 {
+    font-size: 25px;
+  }
+}
+
+
+/* ------------------- Roadmap ------------------- */
+
+
+.roadmap {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.roadmap h1 {
+  text-align: center;
+  color: #eee5e5;
+  font-family: Nipok;
+  padding-bottom: 30px;
+  font-size: 45px;
+
+}
+.roadmap h2 {
+  color: rgb(238, 229, 229);
+  font-family: Nipok;
+  font-size: 33px;
+  text-align: center;
+  padding: 10px;
+}
+
+.roadmap ul {
+  text-align: center;
+  padding: 0px;
+  margin-top: 30px;
+  border-top: 2px solid #d94038;
+  border-bottom: 2px solid #d94038;
+  border-radius: 40px;
+  margin: 30px;
+  padding-bottom: 15px;
+}
+
+.roadmap ul li {
+  text-align: center;
+  color: rgb(238, 229, 229);
+  font-family: earthtracks;
+  list-style-type: none;
+  line-height: 60px;
+  opacity: 0.9;
+  font-size: 24px;
+}
+
+
+
+@media (max-width: 800px) {
+  .roadmap {
+    margin-top: -20px;
+  }
+  .roadmap h1 {
+    padding-bottom: 25px;
+    font-size: 35px;
+  }
+  .roadmap h2 {
+    margin-top: 30px;
+    font-size: 28px;
+  }
+  .roadmap ul li {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 600px) {
+  .roadmap h1 {
+    padding-bottom: 25px;
+    font-size: 35px;
+  }
+  .roadmap h2 {
+    margin-top: 30px;     
+    font-size: 26px;
+  } 
+}
+
+@media (max-width: 300px) {
+  .roadmap ul {
+    border-radius: 30px;
+  }
+}
+
+
+/* ------------------- Footer ------------------- */
+
+.footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer p {
+  font-family: earthtracks;
+  padding-top: 70px;
+  color: rgb(238, 229, 229);
+  text-align: center;
+  font-size: 17px;
+}
+
+.footer h6 {
+  color: rgb(238, 229, 229);
+  font-family: Nipok;
+  text-align: center;
+  padding-top: 9px;
+  letter-spacing: 2px;
+  font-size: 15px;
+
+}
+
+
+@media (max-width: 800px) {
+  .footer p {
+    font-size: 16px;
+  }
+
+  .footer h6 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 450px) {
+  .footer p {
+    font-size: 13px;
+  }
+
+  .footer h6 {
+    font-size: 11px;
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d575a10f.css",
+    "main.js": "/static/js/main.bcfb2178.js",
+    "static/media/Dashhorizon-eZ5wg.otf": "/static/media/Dashhorizon-eZ5wg.52149500184acb6b8bc0.otf",
+    "index.html": "/index.html",
+    "main.d575a10f.css.map": "/static/css/main.d575a10f.css.map",
+    "main.bcfb2178.js.map": "/static/js/main.bcfb2178.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d575a10f.css",
+    "static/js/main.bcfb2178.js"
+  ]
+}
